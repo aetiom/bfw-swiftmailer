@@ -1,0 +1,30 @@
+{
+    "name": "aetiom/bfw-swiftmailer",
+    "type": "library",
+    "description": "Swiftmailer module for BFW",
+    "keywords": ["mailer", "swiftmailer", "module", "bfw"],
+    "homepage": "https://github.com/aetiom/bfw-swiftmailer",
+    "time": "2019-11-14",
+    "license": "LGPL-3.0",
+    "authors": [
+        {
+        "name": "Alexandre Moittié / Aetiom",
+        "homepage": "https://github.com/aetiom",
+        "email": "aetiom@protonmail.com"
+        }
+    ],
+    "support": {
+        "email": "aetiom@protonmail.com",
+        "issues": "https://github.com/aetiom/bfw-swiftmailer/issues",
+        "source": "https://github.com/aetiom/bfw-swiftmailer"
+    },
+    "require": {
+        "bulton-fr/bfw": "~3.0.0-RC11@RC",
+        "swiftmailer/swiftmailer": "^6.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "BfwSwiftmailer\\": "src/"
+        }
+    }
+}
